@@ -8,9 +8,5 @@ module.exports = BaseAppView.extend({
     this.app.on('change:loading', function(app, loading) {
       $body.toggleClass('loading', loading);
     });
-
-    this.app.on('change:title', function(app, title) {
-      document.title = title + ' | Rendr Example App';
-    });
   }
 });

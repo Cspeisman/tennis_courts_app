@@ -1,9 +1,6 @@
 var BaseView = require('../base');
 
 module.exports = BaseView.extend({
-  
-  className: 'courts_show_view',
-
+  className: 'cities_index_view'
 });
-
-module.exports.id = 'courts/show';
+module.exports.id = 'cities/index';
