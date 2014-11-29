@@ -6,7 +6,6 @@ module.exports = BaseView.extend({
   getTemplateData: function() {
     var data = BaseView.prototype.getTemplateData.call(this);
     data.courts = this.options.courts;
-    data.model = data['0']
     return data;
   }
 });
