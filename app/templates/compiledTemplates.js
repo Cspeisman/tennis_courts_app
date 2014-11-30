@@ -138,7 +138,7 @@ helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
   
 
 
-  return "<h1>Wecome to Public Courts Site!</h1>\n<p>This app uses Rendr and talks to the Public Courts API</p>\n<p>Check out all the available courts <a href=\"/courts\">Courts</a> or <a href=\"/cities\">Cities</a>.</p>";
+  return "<h1>Wecome to The Public Tennis Courts Site!</h1>\n<p>This app uses Rendr and talks to the Public Tennis Courts API</p>\n<p>Check out all the available courts <a href=\"/courts\">Courts</a> or <a href=\"/cities\">Cities</a>.</p>";
   });
 
 return templates;
